@@ -17,7 +17,7 @@ function App() {
         <Route path="/teacher" element={<TeacherDashboard />} />
 
         {/* Admin Section with Nested Layout */}
-        <Route path="/admin" element={<AdminLayout />}>
+        <Route path="/" element={<AdminLayout />}>
           <Route index element={<AdminDashboard />} />
           <Route path="users" element={<UserManagement />} />
           <Route path="courses" element={<CourseCreation />} />
