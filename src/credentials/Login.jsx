@@ -423,7 +423,7 @@ function Login() {
                         <label htmlFor="remember">Keep me logged in</label>
                     </div>
 
-                    <button type="submit" className="submit-btn" onClick={() => (window.location.href = '/admin')}>Sign In</button>
+                    <button type="submit" className="submit-btn" onClick={() => (window.location.href = '/student')}>Sign In</button>
                 </form>
 
                 <p className="auth-footer">
